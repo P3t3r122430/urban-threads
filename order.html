@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Boutique</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-snippet">
+    <h2>Place Your Order</h2>
+    <form style="max-width:500px; margin:30px auto; display:flex; flex-direction:column; gap:15px;">
+      <input type="text" placeholder="Full Name" required style="padding:10px; border-radius:5px; border:1px solid #ccc;">
+      <input type="email" placeholder="Email Address" required style="padding:10px; border-radius:5px; border:1px solid #ccc;">
+      <input type="text" placeholder="Product Name" required style="padding:10px; border-radius:5px; border:1px solid #ccc;">
+      <input type="number" placeholder="Quantity" required style="padding:10px; border-radius:5px; border:1px solid #ccc;">
+      <textarea placeholder="Delivery Address" required style="padding:10px; border-radius:5px; border:1px solid #ccc;"></textarea>
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Boutique. All Rights Reserved.</p>
+    <p>Open: Sunday – Friday | 8am – 8pm</p>
+  </footer>
+</body>
+</html>
